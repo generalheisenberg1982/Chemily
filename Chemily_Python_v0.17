@@ -1,0 +1,152 @@
+####################
+#DO NOT MODIFY CODE#
+####################
+#MODIFY AT YOUR OWN#
+#RISK. WARNING######
+####################
+
+#filepath = 'ti_84os/barxem.txt'
+#with open(filepath, "r") as file
+#    chusek = file.read
+#    str(chusek)
+
+print(">>>loading 7,500 bytes of data")
+print(">>>loading windows")
+#print(">>>loading Chemical Kinetics")
+def Chemical_Kinetics():
+    print(
+        "--------------------------------\nChemical Kinetics\nAvg. Reaction Rate: ([A]_2 - [A]_1)/(t_2-t_1)\nRate Laws: Rate = k[A]^m [B]6n"
+        "Differential Rate Laws: \n 1st Rate = -(Δ[A]/Δt) = k[A] \n 2nd Rate = -(Δ[A]/Δt) = k[A]^2 \n 0th Rate = -(Δ[A]/Δt) = k"
+        "\nIntegrated Rate Laws: \n 1st In[A]_t=-kt+In[A_0] \n 2nd (1/[A]_t)=kt+(1/[A]_0) \n 0th [A]_t=-kt+[A]_0"
+        "\nHalf-Life Equations: \n 1st In[2]/k \n 2nd 1/k[A]_0 \n 0th [A]_0/2k"
+        "\nTemp and Rate: \n In(k_1/k_2) = (E_a/R)(1/T_2 - 1/T_1\n R=8.3145J/K-mol"
+        "\nActivation Energy Equation\n In(k)=-(E_a/R)(1/t)+In[A]"
+    )
+    input("\nInput [Enter] to return to main menu.")
+    menu()
+#print(">>>loading Equillibrium")
+def Equilibrium():
+    print(
+        "--------------------------------\nEquilibrium Equations\nEquations for K:\n"
+        "  K_c = ([D]^d[E]^e) / ([A]^a[B]^b)\n"
+        "  * Do not include pure solids or liquids.\n"
+        "  K_p = (D^d) (B^b)\n"
+        "  K_p = K_c (RT)^Δn\n"
+        "K is at equilibrium; Q is like K but at specific concentrations.\n\n"
+        "Quadratic Formula:\n"
+        "  (-b ± sqrt(b^2 - 4ac)) / 2a\n"
+        "Approximation Check:\n"
+        "  Remember to check if the error is below 5%.\n"
+        "  Error = (x / Initial) * 100"
+    )
+    input("\nPress [Enter] to return to main menu.")
+    menu()
+
+#print(">>>loading Polyatomic Ions")
+def Polyatomics_Ions():
+    print("\n--------------------------------\nPolyatomic Ions \n Acetate    C2H3O2^-\n Ammonium    NH4^+ \n Bromate    BrO3^-\n Carbonate    CO3^2-\n Bicarbonate	HCO3^- \n Chlorate    ClO3^-\n Chlorite    ClO2^-\n Hypochlorite	ClO^- \n Perchlorate    ClO4^-\n Chromate    CrO4^2- \n Dichromate    Cr2O7^2- \n Cyanide    CN^- \n Hydroxide    OH^-\n Manganate    MnO4^2-\n Nitrate    NO3^- \n Nitrite    NO2^- \n Oxalate    C2O4^2-\n Peroxide    O2^2- \n Phosphate    PO4^3-\n Phosphite    PO3^3- \n Sulfate    SO4^2- \n Sulfite    SO3^2-")
+    input("\nPress [Enter] to return to menu.")
+    menu()
+
+#print(">>>loading Unit Conversions")
+def Unit_Conversions():
+    print("--------------------------------\nUnit Conversion")
+    print("Metric Conversions: \n 10^9nm = 1m \n 1000mm = 1m \n 100cm = 1m \n 1000m = 1km")
+    print("Frequency Conversions: \n 10^6Hz = 1MHz")
+    print("Energy Conversions: \n 1KJ = 1000J ")
+    print("Temperature Conversions: \n C+273.15=K \n C*(9/5)+32=F")
+    print("Imperial to Metric \n inches*2.54=cm")
+    input("\n[Enter] to return to main menu. ")
+    menu()
+
+#print(">>>loading Gas")
+def Gas_Stioch():
+    print("--------------------------------\nGas and  Aqueous Stiochiometry")
+    print("Gas Equations \n PV=nRT (T in Kelvin)(R=0.021 L atm / mo K \n r_1/r_2=sqrt(M_2/M_1)=t_2/t_1 \n Molarity=mol/L \nBeer's Law \n A=(a)(b)(c) \n A=absorbance \n a=molar absorptivity \n b=path length \n c=concentration\nAverage Gas Speed Law \n rms=sqrt(3RT/MM) \n R=8.31J/mol K \nMolar mass in kg/mol")
+    input("\nPress [Enter] to return to main menu. ")
+    menu()
+
+#print(">>>loading Atomic Structure")
+def Atomic_Structure():
+    print("--------------------------------\nAtomic Structure \nEnergy Equation: \n E=hv \nSpeed of Light \n c=λv \nHydrogen Atom Energy: \n E_n = -2.178*10^-18/n^2\n")
+    print("Constants: \n c = 3.0*10^8 m s^-1 \n h = 6.63 * 10^-34 J s\n Avogadro's # = 6.022*10^23 mol^-1 \nSubshells/Orbitals \n [s] stupid \n [p] people\n [d] drink \n [f] f*cking \n [g] gasoline \n n-1=d \n n-2=f")
+    input("\nPress [Enter] to return to main menu. ")
+    menu()
+
+#print(">>>loading Thermochemistry")
+def Thermochemistry():
+    print("Entropy \n ΔS = ΣS products - ΣS reactants")
+    print("Enthalpy \n ΔH = ΣH products - ΣH reactants")
+    print("Gibb's Free Energy \n ΔG = ΣG products - ΣG reactants")
+    print("General Energy Equations \n ΔG=ΔH-TΔS \n ΔG=-RT*In(K) \n q=mCΔT")
+    input("\nPress [Enter] to return to menu.")
+    menu()
+
+#print(">>>loading Solubility Rules")
+def Solubility_Rules():
+    print("--------------------------------\nSolubility Rules\n Salts of ammonium (NH_3)and Group IA are always soluble \n All chlorides, bromides, and iodides are soluble except Ag, Hg_2, Hg, and Pb \n Chlorate, nitrates, and acetates are soluble \n Sulfates are soluble except Ca, Sr, Ba, Hg_2, Hg, Pb, and Ag_2 which are insoluble \n Phosphates and carbonates are insoluble except NH_4^+ and Group IA compounds, Chromates and sulfates too \n Phosphates and carbonates are insoluble except NH_4^+ and Group IA compounds. \n All metallic oxides are insoluble except NH_4^+ and Group IA compounds \n All metallic hydroxides are insoluble except NH_4^+ and Group IA and Group IIA from calcium down. \n All sulfides are insoluable except NH_4^+ and Groups IA and IIA.\n")
+    print("Remember: NAG S*+AG* \n PMS* CastroBear+ ")
+    input("\nPress [Enter] to return to menu.")
+    menu()
+
+#print(">>>loading Acids and Bases")
+def Strong_Acids_and_Bases():
+    print("--------------------------------\nStrong Acids\n HCI \n HBr \n HI \n HClO_3\n HClO_4\n HNO_3\n H_2SO_4")
+    print("Strong Bases \n Group IA metal hydroxides \n Heavy Group 2A metal hydroxides")
+    input("\nPress [Enter] to return to menu.")
+    menu()
+
+#print(">>>loading Activity Series")
+def Activity():
+    print("--------------------------------\nActivity Series of Metals \n Li (Most Reactive) \n K \n Ba \n Ca \n Na \n Mg \n Al \n Mn \n Zn \nCr \n Fe \n Co \n Ni \n Sn \n Pb \n H_2 \n Cu \n Ag \n Hq \n Pt \n Au (Least Reactive)")
+    input("\nPress [Enter] to return to menu.")
+    menu()
+
+print(">>>loading menus")
+def Other():
+    print("\n \n \n")
+    userinput = input(" Chemily v1.01 - Secondary Menu\n \n [a] Atomic Structure \n [b] Gas & Aqueos Stiochiometry \n [c] Unit Conversions \n [d] Strong Acids and Bases \n [e] Activity Series \n [f] Main Menu \n \n Enter choice:")
+    if userinput == "a":
+        Atomic_Structure()
+    elif userinput == "b":
+        Gas_Stioch()
+    elif userinput == "c":
+        Unit_Conversions()
+    elif userinput == "d":
+        Strong_Acids_and_Bases()
+    elif userinput == "e":
+        Activity()
+    elif userinput == "f":
+        menu()
+    else:
+        print("Invalid option.")
+        Other()
+
+def menu():
+    print("\n    Chemily v1.01 - Main Menu")
+    userinput = input("\n [a] Chemical Kinetics\n [b] Equilibrium\n [c] Polyatomic Ions \n [d] Solubility Rules\n [e] Thermochemistry \n [f] Secondary Menu \n \n Enter choice: ")
+    if userinput == "a":
+        Chemical_Kinetics()
+    elif userinput == "b":
+        Equilibrium()
+    elif userinput == "c":
+        Polyatomics_Ions()
+    elif userinput == "d":
+        Solubility_Rules()
+    elif userinput == "e":
+        Thermochemistry()
+    elif userinput =="f":
+        Other()
+    else: 
+        print("Invalid option. \n")
+        menu()
+
+print(">>>loading node connections")
+#clear()
+print("\n\n\n\n")
+print("         Chemily v1.01")
+print("     Saving duds since 2024")
+print("\n")
+userinput= input("\n   Press [Enter] to continue.")
+print("\n")
+menu()
