@@ -1,0 +1,120 @@
+Lbl K
+ClrHome
+If θ=π
+Goto A
+If θ=
+Goto SP
+0→θ
+0→A
+
+Menu("CHEMILY BASISVERSION V0.1","Starke Basen",AA,"Starke Säuren",AB,"Halbwertszeit-Gleichungen",AC,"VESPER-Theorie",AD,"Löslichkeitsregeln",AE,"Einheitenumrechnungen",UC,"Integrierte Geschwindigkeitsgesetze",RL,"K-Konstantenregeln",KK,"Beenden",EX
+
+Lbl AA
+ClrHome
+Disp "Starke Basen"
+Disp "Hydroxide der Gruppe 1A-Metalle"
+Disp "Hydroxide der Gruppe 2A-Metalle"
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl AB
+ClrHome
+Disp "Starke Säuren"
+Disp "HCl - Salzsäure"
+Disp "HBr - Bromwasserstoffsäure"
+Disp "HI - Iodwasserstoffsäure"
+Disp "HClO4 - Perchlorsäure"
+Disp "HNO3 - Salpetersäure"
+Disp "H2SO4 - Schwefelsäure"
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl AC
+ClrHome
+Disp "Halbwertszeit-Gleichungen"
+Disp "0. Ordnung: [A]_0/2k"
+Disp "1. Ordnung: ln[2]/k"
+Disp "2. Ordnung: 1/k[A]_0"
+Disp "Auf einem Diagramm suchen Sie"
+Disp "nach einer Geraden."
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl AD
+ClrHome
+Disp "VESPER"
+Disp "GEKNICKT 1LP: 119"
+Disp "Geknickt 2LP: 104,5"
+Disp "Trigonal-Pyramidal 1LP:"
+Disp "107,3"
+Disp "Tetraedrisch 0LP: 109,5"
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl AE
+ClrHome
+Disp "Löslichkeitsregeln"
+Disp "Immer löslich:"
+Disp "Na+ K+ NH4+ NO3-"
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl UC
+ClrHome
+Disp "Einheitenumrechnungen"
+Disp "Metrische Umrechnungen"
+Disp "10^9nm = 1m"
+Disp "10^6Hz = 1MHz"
+Disp "1KJ = 1000J"
+Disp "C+273,15=K"
+Disp "C*(9/5)+32=F"
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl RL
+ClrHome
+Disp "Integrierte Geschwindigkeitsgesetze"
+Disp "0. Ordnung: [A]_t=-kt+[A]_0"
+Disp "1. Ordnung: ln[A]_t=-kt+ln[A_0]"
+Disp "2. Ordnung: 1/[A]_t=kt+(1/[A]_0)"
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl AS
+ClrHome
+Disp "Aktivitätsreihe"
+Disp "Reaktivste"
+Disp "K  Ba Ca Na Mg Al Mn Zn"
+Disp "Cr Fe Co Ni Sn Pb H2 Cu"
+Disp "Ag Hq Pt Au"
+Disp "Am wenigsten reaktiv"
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl KK
+ClrHome
+Disp "K-Regeln"
+Disp "K steigt mit Wärme."
+Disp "K sinkt mit Wärme."
+Disp "K_w=(H+)(OH-)"
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl DC
+ClrHome
+Disp "Über"
+Disp "App: Chemily Basis"
+Disp "Version: v0.1.0"
+Disp "Sprache: Deutsch"
+Disp "Programmiersprache: Basic"
+Disp "Drücken Sie [Enter] für Menü."
+Stop
+
+Lbl EX
+Menu("Programm beenden?","Ja",EY,"Nein",EN
+Lbl EY
+Return
+Stop
+
+Lbl EN
+Goto K
