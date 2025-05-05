@@ -1,0 +1,120 @@
+Lbl K
+ClrHome
+If θ=π
+Goto A
+If θ=
+Goto SP
+0→θ
+0→A
+
+Menu("QUÍMICA BÁSICA V0.1","Bases Fuertes",AA,"Ácidos Fuertes",AB,"Ecuaciones de Vida Media",AC,"Teoría VESPER",AD,"Reglas de Solubilidad",AE,"Conversiones de Unidades",UC,"Leyes de Velocidad Integradas",RL,"Reglas de la Constante K",KK,"Salir",EX
+
+Lbl AA
+ClrHome
+Disp "Bases Fuertes"
+Disp "Hidróxidos de Metales del Grupo 1A"
+Disp "Hidróxidos de Metales del Grupo 2A"
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl AB
+ClrHome
+Disp "Ácidos Fuertes"
+Disp "HCl - Ácido Clorhídrico"
+Disp "HBr - Ácido Bromhídrico"
+Disp "HI - Ácido Yodhídrico"
+Disp "HClO4 - Ácido Perclórico"
+Disp "HNO3 - Ácido Nítrico"
+Disp "H2SO4 - Ácido Sulfúrico"
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl AC
+ClrHome
+Disp "Ecuaciones de Vida Media"
+Disp "0° [A]_0/2k"
+Disp "1° ln[2]/k"
+Disp "1/k[A]_0"
+Disp "En una gráfica, busque la"
+Disp "línea recta."
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl AD
+ClrHome
+Disp "VESPER"
+Disp "ANGULADA 1LP: 119"
+Disp "Angulada 2LP: 104.5"
+Disp "Pirámide Trigonal 1LP:"
+Disp "107.3"
+Disp "Tetraédrica 0LP: 109.5"
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl AE
+ClrHome
+Disp "Reglas de Solubilidad"
+Disp "Siempre Soluble"
+Disp "Na+ K+ NH4+ NO3-"
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl UC
+ClrHome
+Disp "Conversiones de Unidades"
+Disp "Conversiones Métricas"
+Disp "10^9nm = 1m"
+Disp "10^6Hz = 1MHz"
+Disp "1KJ = 1000J"
+Disp "C+273.15=K"
+Disp "C*(9/5)+32=F"
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl RL
+ClrHome
+Disp "Leyes de Velocidad Integradas"
+Disp "0° [A]_t=-kt+[A]_0"
+Disp "1° ln[A]_t=-kt+ln[A_0]"
+Disp "2° 1/[A]_t=kt+(1/[A]_0)"
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl AS
+ClrHome
+Disp "Serie de Actividad"
+Disp "Más Reactivo"
+Disp "K  Ba Ca Na Mg Al Mn Zn"
+Disp "Cr Fe Co Ni Sn Pb H2 Cu"
+Disp "Ag Hq Pt Au"
+Disp "Menos Reactivo"
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl KK
+ClrHome
+Disp "Reglas de K"
+Disp "K aumenta con el calor."
+Disp "K disminuye con el calor."
+Disp "K_w=(H+)(OH-)"
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl DC
+ClrHome
+Disp "Acerca de"
+Disp "App: Química Básica"
+Disp "Versión: v0.1.0"
+Disp "Idioma: Español"
+Disp "Lenguaje de Programación: Basic"
+Disp "Presione [Enter] para el menú."
+Stop
+
+Lbl EX
+Menu("¿Salir del Programa?","Sí",EY,"No",EN
+Lbl EY
+Return
+Stop
+
+Lbl EN
+Goto K
